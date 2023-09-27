@@ -4,18 +4,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mooli&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Vinothgopi G</h1>
-        <img src="./assets/images/profile.jpg" height="200">
-        <h2>Summary</h2>
+        <div id="headContainer">
+            <div id="intro">
+                <h1 id="name">Vinothgopi G</h1>
+                <h3>
+                    <a href="mailto:vinothgopi@hotmail.com">vinothgopi@hotmail.com</a>
+                </h4>
+                <p>Software Engineer with a demonstrated history of working in the information technology and services industry. 
+                    Skilled in java and spring boot. </p>
+            </div>
+            <img id="profile" src="./assets/images/profile.jpg" height="200">
+        </div>
+        <!-- <h2>Summary</h2>
         <p>
             Software Engineer with a demonstrated history of working in the information technology and services industry. 
             Skilled in java and spring boot. 
-            Strong engineering professional with a Bachelor of Engineering (B.E.) focused in Computer Science from Mepco Schlenk Engineering College.
-        </p>
-        <h2>Work Experiences</h2>
-        <div>
+        </p> -->
+        
+        <div class="section">
+            <h2>Work Experiences</h2>
             <ul>
                 <li>
                     <div>
@@ -65,32 +78,35 @@
                 </li>
             </ul>
         </div>
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <div>        
-                    <h3>Mepco Schlenk Engineering College, Sivakasi</h3>
-                    <h4>Bachelor of Computer Science and Engineering (B.E, CSE) - CGPA: 8.9/10</h4>
-                    <h4>Mar 2019</h4>                
-                </div>
-            </li>
-            <li>
-                <div>        
-                    <h3>S.H.N.V Hr. Sec. School, Sivakasi</h3>
-                    <h4>HSC (Maths, Biology) - 92.5%</h4>
-                    <h4>Mar 2015</h4>                
-                </div>
-            </li>
-            <li>
-                <div>        
-                    <h3>S.H.N.V Hr. Sec. School, Sivakasi</h3>
-                    <h4>SSLC - 97%</h4>
-                    <h4>Mar 2013</h4>                
-                </div>
-            </li>
-        </ul>
-        <h2>Skills</h2>
+        <div class="section">
+            <h2>Education</h2>
             <ul>
+                <li>
+                    <div>        
+                        <h3>Mepco Schlenk Engineering College, Sivakasi</h3>
+                        <h4>Bachelor of Computer Science and Engineering (B.E, CSE) - CGPA: 8.9/10</h4>
+                        <h4>Mar 2019</h4>                
+                    </div>
+                </li>
+                <li>
+                    <div>        
+                        <h3>S.H.N.V Hr. Sec. School, Sivakasi</h3>
+                        <h4>HSC (Maths, Biology) - 92.5%</h4>
+                        <h4>Mar 2015</h4>                
+                    </div>
+                </li>
+                <li>
+                    <div>        
+                        <h3>S.H.N.V Hr. Sec. School, Sivakasi</h3>
+                        <h4>SSLC - 97%</h4>
+                        <h4>Mar 2013</h4>                
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Skills</h2>
+            <ul id="skills">
                 <li>Java</li>
                 <li>Spring boot</li>
                 <li>Spring batch</li>
@@ -101,17 +117,24 @@
                 <li>MySQL</li>
                 <li>MongoDB</li>
             </ul>
+        </div>
         <!-- <h2>Awards and Certifications</h2>
         yet to update -->
-        <h3><a href="https://www.linkedin.com/in/vinothgopi-graj/overlay/contact-info/" target="_blank">Contact Me</a></h3>
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/vinothgopi-graj/" target="_blank">linkedin</a>
-            </li>
-            <li>
-                <a href="https://play.google.com/store/apps/developer?id=Vinothgopi+Gengalraj" target="_blank">My Google Play Store Apps</a>
-            </li>
-        </ul>
+        <div class="contact">
+            <h3><a href="https://www.linkedin.com/in/vinothgopi-graj/overlay/contact-info/" target="_blank">Contact Me</a></h3>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/vinothgopi-graj/" target="_blank">linkedin</a>
+                </li>
+                <li>
+                    <a href="https://play.google.com/store/apps/developer?id=Vinothgopi+Gengalraj" target="_blank">My Google Play Store Apps</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Vinothgopi97" target="_blank">Github Profile</a>
+                </li>
+            </ul>
+        </div>
+    
     </body>
     <footer>
         <p>© 2023 Vinothgopi. All rights reserved.</p>
